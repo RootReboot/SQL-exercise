@@ -109,7 +109,7 @@ having
 select
   name,
   price
-from product
+from products
 where
   price = (
     select
