@@ -16,13 +16,6 @@ create table AssignedTo (
   Foreign Key (Scientist) references Scientists (SSN),
   Foreign Key (Project) references Projects (Code)
 );
-create table AssignedTo (
-  Scientist int not null,
-  Project char(4) not null,
-  Primary Key (Scientist, Project),
-  Foreign Key (Scientist) references Scientists (SSN),
-  Foreign Key (Project) references Projects (Code)
-);
 INSERT INTO Scientists(SSN, Name)
 VALUES(123234877, 'Michael Rogers'),
   (152934485, 'Anand Manikutty'),
