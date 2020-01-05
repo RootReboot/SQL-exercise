@@ -61,7 +61,7 @@ WHERE
       Piece = Pieces.Code
   );
 -- 5.7 Add an entry to the database to indicate that "Skellington Supplies" (code "TNBC") will provide sprockets (code "1") for 7 cents each.
-insert into providers(piece, provider, price)
+insert into provides(piece, provider, price)
 values(1, 'TNBC', 7);
 -- 5.8 Increase all prices by one cent.
 update provides
