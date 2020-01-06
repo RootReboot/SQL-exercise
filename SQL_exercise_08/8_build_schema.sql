@@ -107,7 +107,12 @@ CREATE TABLE Undergoes (
 INSERT INTO Physician
 VALUES(1, 'John Dorian', 'Staff Internist', 111111111);
 INSERT INTO Physician
-VALUES(2, 'Elliot Reid', 'Attending Physician', 222222222);
+VALUES(
+    2,
+    'Elliot Reid',
+    'Attending Physician',
+    222222222
+  );
 INSERT INTO Physician
 VALUES(
     3,
@@ -123,7 +128,12 @@ VALUES(
     444444444
   );
 INSERT INTO Physician
-VALUES(5, 'Bob Kelso', 'Head Chief of Medicine', 555555555);
+VALUES(
+    5,
+    'Bob Kelso',
+    'Head Chief of Medicine',
+    555555555
+  );
 INSERT INTO Physician
 VALUES(
     6,
@@ -175,19 +185,19 @@ INSERT INTO Affiliated_With
 VALUES(8, 1, 1);
 INSERT INTO Affiliated_With
 VALUES(9, 3, 1);
-INSERT INTO Procedures
+INSERT INTO Procedure
 VALUES(1, 'Reverse Rhinopodoplasty', 1500.0);
-INSERT INTO Procedures
+INSERT INTO Procedure
 VALUES(2, 'Obtuse Pyloric Recombobulation', 3750.0);
-INSERT INTO Procedures
+INSERT INTO Procedure
 VALUES(3, 'Folded Demiophtalmectomy', 4500.0);
-INSERT INTO Procedures
+INSERT INTO Procedure
 VALUES(4, 'Complete Walletectomy', 10000.0);
-INSERT INTO Procedures
+INSERT INTO Procedure
 VALUES(5, 'Obfuscated Dermogastrotomy', 4899.0);
-INSERT INTO Procedures
+INSERT INTO Procedure
 VALUES(6, 'Reversible Pancreomyoplasty', 5600.0);
-INSERT INTO Procedures
+INSERT INTO Procedure
 VALUES(7, 'Follicular Demiectomy', 25.0);
 INSERT INTO Patient
 VALUES(
@@ -226,7 +236,13 @@ VALUES(
     3
   );
 INSERT INTO Nurse
-VALUES(101, 'Carla Espinosa', 'Head Nurse', 1, 111111110);
+VALUES(
+    101,
+    'Carla Espinosa',
+    'Head Nurse',
+    1,
+    111111110
+  );
 INSERT INTO Nurse
 VALUES(102, 'Laverne Roberts', 'Nurse', 1, 222222220);
 INSERT INTO Nurse
@@ -332,9 +348,23 @@ VALUES(4, 'Crescavitin', 'Baz Industries', 'N/A');
 INSERT INTO Medication
 VALUES(5, 'Melioraurin', 'Snafu Pharmaceuticals', 'N/A');
 INSERT INTO Prescribes
-VALUES(1, 100000001, 1, '2008-04-24 10:47', 13216584, '5');
+VALUES(
+    1,
+    100000001,
+    1,
+    '2008-04-24 10:47',
+    13216584,
+    '5'
+  );
 INSERT INTO Prescribes
-VALUES(9, 100000004, 2, '2008-04-27 10:53', 86213939, '10');
+VALUES(
+    9,
+    100000004,
+    2,
+    '2008-04-27 10:53',
+    86213939,
+    '10'
+  );
 INSERT INTO Prescribes
 VALUES(9, 100000004, 2, '2008-04-30 16:53', NULL, '5');
 INSERT INTO Block
@@ -434,17 +464,53 @@ VALUES(422, 'Single', 4, 3, 0);
 INSERT INTO Room
 VALUES(423, 'Single', 4, 3, 0);
 INSERT INTO On_Call
-VALUES(101, 1, 1, '2008-11-04 11:00', '2008-11-04 19:00');
+VALUES(
+    101,
+    1,
+    1,
+    '2008-11-04 11:00',
+    '2008-11-04 19:00'
+  );
 INSERT INTO On_Call
-VALUES(101, 1, 2, '2008-11-04 11:00', '2008-11-04 19:00');
+VALUES(
+    101,
+    1,
+    2,
+    '2008-11-04 11:00',
+    '2008-11-04 19:00'
+  );
 INSERT INTO On_Call
-VALUES(102, 1, 3, '2008-11-04 11:00', '2008-11-04 19:00');
+VALUES(
+    102,
+    1,
+    3,
+    '2008-11-04 11:00',
+    '2008-11-04 19:00'
+  );
 INSERT INTO On_Call
-VALUES(103, 1, 1, '2008-11-04 19:00', '2008-11-05 03:00');
+VALUES(
+    103,
+    1,
+    1,
+    '2008-11-04 19:00',
+    '2008-11-05 03:00'
+  );
 INSERT INTO On_Call
-VALUES(103, 1, 2, '2008-11-04 19:00', '2008-11-05 03:00');
+VALUES(
+    103,
+    1,
+    2,
+    '2008-11-04 19:00',
+    '2008-11-05 03:00'
+  );
 INSERT INTO On_Call
-VALUES(103, 1, 3, '2008-11-04 19:00', '2008-11-05 03:00');
+VALUES(
+    103,
+    1,
+    3,
+    '2008-11-04 19:00',
+    '2008-11-05 03:00'
+  );
 INSERT INTO Stay
 VALUES(3215, 100000001, 111, '2008-05-01', '2008-05-04');
 INSERT INTO Stay
